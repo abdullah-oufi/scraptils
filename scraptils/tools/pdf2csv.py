@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 # converts a pdf into a csv file
 
-from pdfminer.pdfparser import PDFParser, PDFDocument
+from pdfminer.pdfparser import PDFParser
+from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.layout import LAParams, LTRect
 from pdfminer.converter import PDFPageAggregator
